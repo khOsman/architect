@@ -1,7 +1,273 @@
+/* Import Font-Family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
 /* Common styles start */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.xl-font {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.secondary-color {
+    color: #727272;
+    font-weight: 500;
+}
+
+.primary-color {
+    color: #FF900E;
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-description {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/*-------------------------- */
 
 
+/* -------- header styles --------- */
+.header {
+    background: #FFF4E7;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
 
-/* ----------------------
--------------------------- */
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}
+
+.nav-item-container {
+    display: flex;
+}
+
+.nav-item li {
+    list-style: none;
+}
+
+.nav-item a {
+    color: #424242;
+    text-decoration: none;
+}
+
+/* Header-banner */
+.header-banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-banner img {
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.header-banner-content {
+    width: 862px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-banner-content h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+
+.header-banner-content button {
+    margin-top: 32px;
+}
+
+/* -------- header styles end--------- */
+
+/*-------- Main Section ------  */
+/* Quick feature styles */
+.quick-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+.qfeature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px
+}
+
+.qfeature-content {
+    width: 537px;
+}
+
+
+/* feature You love styles */
+.feature-you-love {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    margin-top: 85px;
+
+}
+
+.feature-love-content {
+    margin-top: 30px;
+}
+
+.feature-love-content h2 {
+    border-left: 3px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feature-love-item {
+    margin-top: 20px;
+    padding: 30px 42px 30px 30px;
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-love-exp {
+    width: 800px;
+    position: relative;
+}
+
+.feature-love-exp img {
+    position: absolute;
+    left: 100px;
+    border-radius: 8px;
+}
+
+.feature-love-exp button {
+    position: absolute;
+    font-weight: 400;
+    width: 342px;
+    height: 180px;
+    left: 0;
+    top: 850px;
+}
+
+/* feature styles end */
+
+/* Some facts  */
+.some-facts {
+    margin-top: 250px;
+    margin-left: 240px;
+}
+
+.facts {
+    display: flex;
+    gap: 165px;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.fact:hover {
+    background: #FF900E;
+
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 55px 46px;
+}
+
+.fact:hover h3 {
+    color: #FFFFFF;
+
+}
+
+.fact:hover p {
+    color: #FFF4E7;
+}
+
+.fact {
+    text-align: center;
+    padding: 45px 36px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: .5s ease;
+}
+
+.fact h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.fact p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
+}
+
+/* Sponsor section style */
+
+.sponsor-section {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-section .qfeature-content {
+    text-align: center;
+}
+
+.sponsors {
+    margin-top: 50px;
+    display: flex;
+    gap: 156px;
+}
+
+.sponsor img {
+    filter: grayscale(100%);
+}
+
+/*----------- Main end --------- */
+/* ------ Footer ------ */
+.footer {
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    background: #FFF4E7;
+    padding: 38px 410px;
+    border-radius: 8px;
+}
