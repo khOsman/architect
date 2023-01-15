@@ -10,6 +10,20 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.xl-font{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.secondary-color{
+    color: #727272;
+    font-weight: 500;
+}
+
+.primary-color{
+    color: #FF900E;
+}
+
 .primary-btn {
     font-weight: 600;
     font-size: 20px;
@@ -128,6 +142,7 @@ nav {
     justify-content: center;
     gap: 54px;
     margin-top: 85px;
+
 }
 
 .feature-love-content {
@@ -148,9 +163,9 @@ nav {
     border-radius: 8px;
 }
 
-.feature-love-exp{
+.feature-love-exp {
     width: 800px;
-    position:relative;
+    position: relative;
 }
 
 .feature-love-exp img {
@@ -161,8 +176,81 @@ nav {
 
 .feature-love-exp button {
     position: absolute;
+    font-weight: 400;
     width: 342px;
     height: 180px;
     left: 0;
     top: 850px;
 }
+
+/* feature styles end */
+
+/* Some facts  */
+.some-facts {
+    margin-top: 250px;
+    margin-left: 240px;
+}
+
+.facts {
+    display: flex;
+    gap: 165px;
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.fact {
+    text-align: center;
+    padding: 45px 36px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.fact h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.fact p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
+}
+
+/* Sponsor section style */
+
+.sponsor-section {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-section .qfeature-content {
+    text-align: center;
+}
+
+.sponsors {
+    margin-top: 50px;
+    display: flex;
+    gap: 156px;
+}
+
+.sponsor img{
+    filter: grayscale(100%);
+}
+/*----------- Main end --------- */
+/* ------ Footer ------ */
+.footer{
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    background: #FFF4E7;
+    padding: 38px 410px;
+    border-radius: 8px;
+}
+
