@@ -390,7 +390,7 @@ nav {
 
     /* Quick features start */
     .quick-feature {
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
