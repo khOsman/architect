@@ -163,6 +163,11 @@ nav {
     border-radius: 8px;
 }
 
+.feature-love-item p{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .feature-love-exp {
     width: 800px;
     position: relative;
