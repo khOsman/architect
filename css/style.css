@@ -1,7 +1,103 @@
+/* Import Font-Family */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
 /* Common styles start */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 25px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-description {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+/*-------------------------- */
 
 
+/* -------- header styles --------- */
+.header {
+    background: #FFF4E7;
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
 
-/* ----------------------
--------------------------- */
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-item-container {
+    display: flex;
+}
+
+.nav-item li {
+    list-style: none;
+}
+
+.nav-item a {
+    color: #424242;
+    text-decoration: none;
+}
+
+/* Header-banner */
+.header-banner {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-banner img{
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.header-banner-content {
+    width: 862px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-banner-content h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+
+.header-banner-content button{
+    margin-top: 32px;
+}
+
+/* -------- header styles end--------- */
 
