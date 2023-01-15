@@ -73,7 +73,7 @@ nav {
     align-items: center;
 }
 
-.header-banner img{
+.header-banner img {
     margin-top: 50px;
     border-radius: 8px;
 }
@@ -95,9 +95,74 @@ nav {
     color: #131313;
 }
 
-.header-banner-content button{
+.header-banner-content button {
     margin-top: 32px;
 }
 
 /* -------- header styles end--------- */
 
+/*-------- Main Section ------  */
+/* Quick feature styles */
+.quick-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+.qfeature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px
+}
+
+.qfeature-content {
+    width: 537px;
+}
+
+
+/* feature You love styles */
+.feature-you-love {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    margin-top: 85px;
+}
+
+.feature-love-content {
+    margin-top: 30px;
+}
+
+.feature-love-content h2 {
+    border-left: 3px solid #FF900E;
+    padding-left: 21px;
+}
+
+.feature-love-item {
+    margin-top: 20px;
+    padding: 30px 42px 30px 30px;
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-love-exp{
+    width: 800px;
+    position:relative;
+}
+
+.feature-love-exp img {
+    position: absolute;
+    left: 100px;
+    border-radius: 8px;
+}
+
+.feature-love-exp button {
+    position: absolute;
+    width: 342px;
+    height: 180px;
+    left: 0;
+    top: 850px;
+}
